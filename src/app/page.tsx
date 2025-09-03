@@ -3,6 +3,7 @@ import Features from '@/components/Features';
 import Pricing from '@/components/Pricing';
 import Cta from '@/components/Cta';
 import Contact from '@/components/Contact';
+import About from '@/components/About';
 
 export default function HomepagePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomepagePage() {
         <Cta />
       </section>
       <Contact />
+      <About />
     </main>
   );
 }
