@@ -4,6 +4,7 @@ import Pricing from '@/components/Pricing';
 import Cta from '@/components/Cta';
 import Contact from '@/components/Contact';
 import About from '@/components/About';
+import Services from '@/components/Services';
 
 export default function HomepagePage() {
   return (
@@ -22,6 +23,7 @@ export default function HomepagePage() {
       </section>
       <Contact />
       <About />
+      <section id="services"><Services /></section>
     </main>
   );
 }
